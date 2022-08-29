@@ -1,0 +1,19 @@
+{
+  "name": "auth-ms",
+  "version": "1.0.0",
+  "description": "Service to handle beets app spotify authentication",
+  "main": "index.js",
+  "repository": "https://github.com/beets2/auth-ms",
+  "author": "Le4o",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
